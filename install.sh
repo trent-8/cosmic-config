@@ -20,7 +20,9 @@ sudo pacman -S --noconfirm --needed\
     noto-fonts\
     ntfs-3g\
     obs-studio\
+    power-profiles-daemon\
     rclone\
+    system76-power\
     ttf-nerd-fonts-symbols-mono\
     ttf-roboto\
     tumbler\
