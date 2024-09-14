@@ -22,6 +22,7 @@ sudo pacman -S --noconfirm --needed\
     ntfs-3g\
     obs-studio\
     papirus-icon-theme\
+    pamixer\
     power-profiles-daemon\
     rclone\
     rsync\
