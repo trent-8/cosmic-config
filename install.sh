@@ -11,6 +11,7 @@ sudo pacman -Syu --noconfirm --needed\
     firefox\
     git\
     gnome-disk-utility\
+    gvfs\
     htop\
     inkscape\
     less\
@@ -25,9 +26,8 @@ sudo pacman -Syu --noconfirm --needed\
     pamixer\
     power-profiles-daemon\
     rclone\
-    rsync\
-    scp\
     signal-desktop\
+    syncthing-gtk\
     ttf-nerd-fonts-symbols-mono\
     ttf-roboto\
     tumbler\
@@ -58,8 +58,8 @@ sudo cp ~/cosmic-config/zsh/zshrc /etc/zsh/
 sudo cp ~/cosmic-config/nano/nanorc /etc/
 chsh -s /bin/zsh
 sudo chsh -s /bin/zsh
-sudo systemctl enable cosmic-greeter
-sudo systemctl enable bluetooth
+sudo systemctl enable --now cosmic-greeter
+sudo systemctl enable --now bluetooth
 
 # Function to present a menu and prompt for user input
 present_menu() {
