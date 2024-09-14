@@ -68,19 +68,19 @@ install_package() {
     case $1 in
         1)
             echo "Installing vulkan-nvidia..."
-            sudo pacman -Syu --noconfirm vulkan-nvidia
+            sudo pacman -Syu --noconfirm --needed vulkan-nvidia
             ;;
         2)
             echo "Installing vulkan-radeon..."
-            sudo pacman -Syu --noconfirm vulkan-radeon
+            sudo pacman -Syu --noconfirm --needed vulkan-radeon
             ;;
         3)
             echo "Installing vulkan-intel..."
-            sudo pacman -Syu --noconfirm vulkan-intel
+            sudo pacman -Syu --noconfirm --needed vulkan-intel
             ;;
         4)
             echo "Installing vulkan-nouveau..."
-            sudo pacman -Syu --noconfirm vulkan-nouveau
+            sudo pacman -Syu --noconfirm --needed vulkan-nouveau
             ;;
         5)
             echo "Exiting..."
