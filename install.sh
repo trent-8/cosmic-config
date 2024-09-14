@@ -20,6 +20,7 @@ sudo pacman -S --noconfirm --needed\
     noto-fonts\
     ntfs-3g\
     obs-studio\
+    papirus-icon-theme\
     power-profiles-daemon\
     rclone\
     system76-power\
