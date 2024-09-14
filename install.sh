@@ -14,6 +14,7 @@ sudo pacman -S --noconfirm --needed\
     htop\
     inkscape\
     less\
+    mesa\
     nano\
     nano-syntax-highlighting\
     neofetch\
