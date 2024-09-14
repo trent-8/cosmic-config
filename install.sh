@@ -24,6 +24,9 @@ sudo pacman -S --noconfirm --needed\
     papirus-icon-theme\
     power-profiles-daemon\
     rclone\
+    rsync\
+    scp\
+    signal-desktop\
     system76-power\
     ttf-nerd-fonts-symbols-mono\
     ttf-roboto\
