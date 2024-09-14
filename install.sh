@@ -28,7 +28,6 @@ sudo pacman -Syu --noconfirm --needed\
     rsync\
     scp\
     signal-desktop\
-    system76-power\
     ttf-nerd-fonts-symbols-mono\
     ttf-roboto\
     tumbler\
@@ -48,6 +47,7 @@ cd yay
 makepkg -si --noconfirm --needed
 yay -S --noconfirm --needed\
     visual-studio-code-bin\
+    system76-power\
     usbimager
 
 # add all config files
